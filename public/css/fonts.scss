@@ -1,0 +1,57 @@
+// =============================================================================
+// String Replace
+// =============================================================================
+@function str-replace($string, $search, $replace: "") {	$index: str-index($string, $search);
+	@if $index {
+		@return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+	}
+
+	@return $string;
+}
+
+// =============================================================================
+// Font Face
+// =============================================================================
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+	$src: null;
+
+	$extmods: (
+		eot: "?",
+		svg: "#" + str-replace($name, " ", "_")
+	);
+
+	$formats: (
+		otf: "opentype",
+		ttf: "truetype"
+	);
+
+	@each $ext in $exts {
+		$extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+		$format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+		$src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+	}
+
+	@font-face {
+		font-family: quote($name);
+		font-style: $style;
+		font-weight: $weight;
+		src: $src;
+	}
+}
+
+@include font-face("Lato", "../fonts/lato/Lato-Black", 900, normal, ttf eot woff woff2);
+@include font-face("Lato", "../fonts/lato/Lato-BlackItalic", 900, italic, ttf eot woff woff2);
+@include font-face("Lato", "../fonts/lato/Lato-Bold", 700, normal, ttf eot woff woff2);
+@include font-face("Lato", "../fonts/lato/Lato-BoldItalic", 700, italic, ttf eot woff woff2);
+@include font-face("Lato", "../fonts/lato/Lato-Hairline", 100, normal, ttf eot woff woff2);
+@include font-face("Lato", "../fonts/lato/Lato-HairlineItalic", 100, italic, ttf eot woff woff2);
+@include font-face("Lato", "../fonts/lato/Lato-Regular", 400, normal, ttf eot woff woff2);
+@include font-face("Lato", "../fonts/lato/Lato-Italic", 400, italic, ttf eot woff woff2);
+@include font-face("Lato", "../fonts/lato/Lato-Light", 300, normal, ttf eot woff woff2);
+@include font-face("Lato", "../fonts/lato/Lato-LightItalic", 300, italic, ttf eot woff woff2);
+@include font-face("Lato", "../fonts/lato/Lato-Medium", 500, normal, ttf eot woff woff2);
+@include font-face("Lato", "../fonts/lato/Lato-MediumItalic", 500, italic, ttf eot woff woff2);
+@include font-face("Lato", "../fonts/lato/Lato-Semibold", 600, normal, ttf eot woff woff2);
+@include font-face("Lato", "../fonts/lato/Lato-SemiboldItalic", 600, italic, ttf eot woff woff2);
+@include font-face("HelveticaNeue", "../fonts/HelveticaNeueBold/HelveticaNeue-Bold", 700, normal, eot otf woff);
+@include font-face("HelveticaNeue", "../fonts/HelveticaNeueLight/HelveticaNeue-Light", 300, normal, eot otf woff);

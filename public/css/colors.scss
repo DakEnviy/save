@@ -1,0 +1,1218 @@
+.csgo {
+  .bg {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #414141 url(../img/csgo-bg3.jpg) no-repeat 0 100px;
+    background-size: cover;
+  }
+  header {
+    background: rgb(38,47,65);
+    background: -moz-linear-gradient(top,  rgba(38,47,65,1) 0%, rgba(29,30,33,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(38,47,65,1) 0%,rgba(29,30,33,1) 100%);
+    background: linear-gradient(to bottom,  rgba(38,47,65,1) 0%,rgba(29,30,33,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262f41', endColorstr='#1d1e21',GradientType=0 );
+    border-bottom: 2px solid #E99A07;
+    .logo-csgo { display: block;}
+    .logo-dota { display: none;}
+    .logo {
+      color: #F8A200;
+      a { color: #F8A200; }
+      h1 {
+        span { color: #0099FF; }
+      }
+      h2 {}
+      .a-menu {
+        a.active > i{
+          color: #0099FF;
+        }
+      }
+    }
+    .Block-B {
+      .button {
+        &::after { background: #202839; }
+        &.active {
+          h1 {
+            color: #F8A200;
+            border-color: #E99A07;
+          }
+        }
+      }
+    }
+    .ProfileSteam {
+      color: #95989A;
+      .SteamInfo {
+        border-top: 2px solid #E99A07;
+        border-bottom: 2px solid #E99A07;
+        > span {
+          img {
+            border-color: #E99A07;
+          }
+        }
+        .Name {}
+        .Balance {
+          i{ color: #F8A200;}
+        }
+        .logOut {
+          color: #95989A;
+        }
+      }
+      .avatar {
+        border-color: #E99A07;
+      }      
+    }
+    .LogSteam {
+      .avatar {
+       }
+      .SteamInfo {
+        border-top: 2px solid #F8A200;
+        border-bottom: 2px solid #F8A200;
+        a {
+          color: #95989A;
+        }
+      }
+      .block-i{
+        border: 2px solid #F8A200;
+        border-radius: 50px;
+        background: #1D1E21;
+        i{
+          color: #F8A200;
+        }
+      }
+    }
+  }
+  
+  .Content {
+    color: #F8A200;
+  }
+
+  .leftContent {
+    .blockMenu {
+      background: rgba(38, 47, 65, 0.83);    
+      ul {
+        a {
+          li {
+            // background:#1D1E21;
+            color: #95989A;
+            i {}
+            p {}
+            .gradient {}
+          }
+        }
+        a.active li {
+          background: rgb(38,47,65);
+          background: -moz-linear-gradient(top,  rgba(38,47,65,1) 0%, rgba(29,30,33,1) 100%);
+          background: -webkit-linear-gradient(top,  rgba(38,47,65,1) 0%,rgba(29,30,33,1) 100%);
+          background: linear-gradient(to bottom,  rgba(38,47,65,1) 0%,rgba(29,30,33,1) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#262f41', endColorstr='#1d1e21',GradientType=0 );
+          i {
+            border-color: #F8A200;
+          }        
+          p {
+            color: #F8A200;
+          }
+          .gradient {}
+          .gradient:nth-child(2n) {}
+        }      
+      }
+    }
+    .marketingBlock {
+      .info {
+        background: #1D1E21;
+      }
+    }
+  }
+
+  .rightContent {
+    .blockGame {
+      background: rgba(38, 47, 65, 0.8);
+      .header {
+        background: #1D1E21;
+        h1 {}
+        .logSteam {
+          color: #F8A200;
+          div {
+              background: linear-gradient(to bottom, #262f41 0%, #1d1e21 100%);
+              border: 2px solid #0099FF;
+            span {}
+            img {}
+          }
+        }
+      }
+    
+      .load {
+        border: solid 2px #F8A200;
+        border-radius: 10px;
+        overflow: hidden;
+        opacity: 0.85;
+        &-active {
+          width: 0;
+          height: 100%;
+          background-color: #115888;
+        }
+        ///* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,0099ff+44,f8a200+100&0+0,1+44,1+100 */
+        //background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(0,153,255,1) 44%, rgba(248,162,0,1) 100%); /* FF3.6-15 */
+        //background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%,rgba(0,153,255,1) 44%,rgba(248,162,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        //background: linear-gradient(to right, rgba(30,87,153,0) 0%,rgba(0,153,255,1) 44%,rgba(248,162,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#f8a200',GradientType=1 );
+      }
+      .infoGame{
+        a {
+          color: #95989A;
+          .btn-bet {
+            background: linear-gradient(to bottom, #262f41 0%, #1d1e21 100%);
+            border: 2px solid #0099FF;
+          }
+        }
+        .block{
+          h1{
+          }
+          span{
+            span{
+            }   
+          }
+          a{
+            color: #0099FF;
+            .btn-bet{
+              background: #1D1E21;
+              border-color: #F8A200;
+            }
+          }            
+
+        } 
+      }
+      .blockHazard{
+        background: #262F41;
+        .infoUser{
+          background: #1D1E21;
+          border-radius: 15px;
+          border: 2px solid #F8A200;
+          .avatarHazard {}
+          span { color: #95989A; }
+        }
+      }
+      .blockItem {
+        .infoItem {
+          .avatar {
+            border: 2px solid #F8A200;
+          }
+          .infoPlayer {
+            a, h1 { color: #95989A; }
+            h2 {
+              color: #0099FF;
+              span { color: #F8A200; }
+            }
+          }
+          .infoRandom {
+            h2 { color: #95989A; }
+          }
+        }
+        .itemGame{
+          background: #262F41;
+          hr{
+            background: #0099FF;
+          }
+          .itemBlock {
+            background: #1D1E21;
+            img { }
+            hr { }
+            h3 { color: #95989A; }
+          }
+        }
+      }
+
+
+  /*-----------------Game start--------------------*/  
+      .line {
+        background: #F8A200;
+      }
+      .StartGame {
+        .blockUser {
+          border: 1px solid #0099FF;
+          img {
+          }
+        }
+      }
+      .infoStartGame {
+        background: #262F41;
+        .leftInfo {
+          h2{
+            span{
+              color: #95989A;
+            }
+          }
+          h2:nth-child(2n) {  }
+          h1 { }
+        }
+        .rightInfo {
+          h1 {
+            span {
+              border: 2px solid #0099FF;
+              div {
+              }
+            }
+          }
+          a {
+            .btn-game {
+              background: red;
+            }  
+          }  
+        }
+      }
+    }
+
+/*-----------------Profile--------------------*/
+
+    .profile {
+      span {}
+      }
+      .infoProfile {
+        .block {
+          span {
+            hr {
+            }
+          }
+          span:first-child {
+          }     
+        }
+      }
+      .name-user {
+        span {
+        }
+      }
+      .linkSteam {
+        h1 {
+          span {}
+        }
+        a { color: rgba(255, 170, 0, 0.8); }
+        div {
+          input {
+            background: #1D1E21;
+            border: 2px solid #E99A07;
+            color: #95989A;
+          }
+          .btn {
+            border: 2px solid #E99A07;
+            color: #E99A07;
+            background: linear-gradient(to bottom, #262f41 0%, #1d1e21 100%);
+          }
+        }      
+      }
+      .achive {
+        span {
+        }
+        .gradient {
+        }
+        .structureAchive {
+          .blockAchive {
+            img {
+              border: 2px solid #FF05E1;
+            }
+            .content {
+              .gradient {
+              }
+              .info {
+                span {
+                }
+                span:first-child {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+/*-----------------History--------------------*/
+
+
+    .History {
+      // background: #262F41;
+      .h-info {
+        .blockAvatar {
+          img {}
+        }
+        .t-info {
+          div {
+            color: #0099FF;
+            span { color: #F8A200; }
+          }
+          > a { color: #95989A; }
+        }
+      }
+      .blockHazard{
+        background: none !important;
+       }
+      .b-item-win {
+        .header-item {
+          span {
+          }
+          span:last-child {
+            span {
+              color: #0099FF;
+            }
+          }
+        }
+        .itemBlock {
+          h3 {}
+        }
+      }
+    }
+
+/*-----------------Top--------------------*/
+
+    .info-top {
+      .block {
+        span {
+          hr {
+          }
+        }
+        span:first-child {
+        }
+      }
+    }
+    .info-top-player {
+      background: #262F41;
+      .h-info {
+        div {
+        }
+        div:first-child {
+        }
+      }
+      .b-info {
+        div {
+        }
+        .b-place {
+        }
+        .b-profile {
+          img {
+          }
+        }
+        .b-win {
+        }
+        .b-money {
+        }
+      }
+    }
+
+
+/*-----------------Shop--------------------*/
+
+  .select {
+    background: #1D1E21;
+    .header {
+      border-bottom: 2px solid #0099FF;
+      h1 {
+      }
+      span {
+      }
+    }
+    .selectItem {
+      .block {
+        span {
+        }
+        select {
+          background: #262F41;
+          color: #F8A200;
+          option {
+          }
+        }
+        .jq-selectbox{
+          width: 100%;
+          li{
+            color: #F8A200;
+          }
+          .jq-selectbox__select{
+            background: #262F41;
+            color: #F8A200;
+            border-color: #F8A200;
+            box-shadow: none;
+            text-shadow: none;
+            .jq-selectbox__trigger{
+              border-left: none;
+            }
+            .jq-selectbox__select-text{
+            }
+          }
+          .jq-selectbox__dropdown{
+            border: none;
+            background: #262F41;
+          }
+        }
+      }
+    }
+    .selectPage {
+      .sell {
+        a {
+          color: #95989A;
+          &:hover { color: #aaadaf; }
+        }
+      }
+      .search{
+        input{
+          background: #262F41;
+        }
+      }
+      .backet{
+        a {
+          color: #F8A200;
+        }
+        .btn-page {
+          div {
+            background: #F8A200;
+          }
+        }
+      }
+    }
+  }
+  .b-basket{
+    border-bottom: 2px solid #F8A200;
+  }
+  .b-basket-toggle {
+    &:hover { color: #ffc525; }
+  }
+
+  .b-item {
+    background: #262F41;
+    hr { background: red; }
+    &-name { background: #21232b; }
+    &-price { background: #21232b; }
+    div:last-child { color: #F8A200; }
+  }
+
+  .itemBlock {
+    background: #1D1E21;
+    h3 { color: #a5a5a5; }
+    .itemInfo {
+      background: #262F41;
+      span { color: #a5a5a5; }
+    }
+    &:hover {
+      .itemInfo { opacity: 1; }
+    }
+    &::after {
+      background-color: #f0f0f0;
+    }
+    .fa {
+      color: #f8a200;
+    }
+    &.active {
+      &::after { opacity: 0.1; }
+      & .fa { opacity: 1; }
+    }
+  }
+  .new-bet .itemBlock { background: #262f41; }
+
+  .list-avatars-wrap {
+  }
+  .list-avatars {
+  }
+  .blockUser {
+    border: 1px solid #0099FF;
+    img {
+    }
+  }
+
+  .AchievementsList{
+    .name{
+      background: linear-gradient(to bottom, #262f41 0%, #1d1e21 100%);
+      a{
+        color: #F8A200;
+      }
+    }
+    .block-pack{
+      .pack{
+
+        img{
+          border: 2px solid #FF05E1;
+        }
+        .block{
+          .info{
+            span{
+            }
+            span:first-child{
+            }
+            .content{
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+.dota {
+  .modal-money { color: #65ced3; }
+  .bg {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #414141 url(../img/dota3.jpeg) no-repeat 0 100px;
+    background-size: cover;
+  }
+  .gradient {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f8a200+0,f8a200+17,65ced3+37,65ced3+65,f8a200+87,f8a200+100&0+0,0.3+17,1+37,1+65,0.15+88,0+100 */
+    background: -moz-linear-gradient(left, rgba(248,162,0,0) 0%, rgba(248,162,0,0.3) 17%, rgba(101,206,211,1) 37%, rgba(101,206,211,1) 65%, rgba(248,162,0,0.19) 87%, rgba(248,162,0,0.15) 88%, rgba(248,162,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(248,162,0,0) 0%,rgba(248,162,0,0.3) 17%,rgba(101,206,211,1) 37%,rgba(101,206,211,1) 65%,rgba(248,162,0,0.19) 87%,rgba(248,162,0,0.15) 88%,rgba(248,162,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(248,162,0,0) 0%,rgba(248,162,0,0.3) 17%,rgba(101,206,211,1) 37%,rgba(101,206,211,1) 65%,rgba(248,162,0,0.19) 87%,rgba(248,162,0,0.15) 88%,rgba(248,162,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f8a200', endColorstr='#00f8a200',GradientType=1 ); /* IE6-9 */
+  }
+  header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#450c0a+0,200505+40,22252a+100 */
+    background: rgb(69,12,10); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(69,12,10,1) 0%, rgba(32,5,5,1) 40%, rgba(34,37,42,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(69,12,10,1) 0%,rgba(32,5,5,1) 40%,rgba(34,37,42,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(69,12,10,1) 0%,rgba(32,5,5,1) 40%,rgba(34,37,42,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#450c0a', endColorstr='#22252a',GradientType=0 ); /* IE6-9 */
+    border-bottom: 2px solid #FD4418;
+    .logo-csgo { display: none;}
+    .logo-dota { display: block;}
+    .logo {
+      color: #FD4418;
+      a { color: #FD4418; }
+      h1 {
+        span { color: #95989A; }
+      }
+      h2 {}
+      .a-menu {
+        a.active > i{
+          color: #00ffe0;
+        }
+      }
+    }
+    .Block-B {
+      .button {
+        &::after { background: #4b2022; }
+        &.active {
+          h1 {
+            color: #00ffe0;
+            border-color: #00ffe0;
+          }
+        }
+      }
+    }
+
+    .ProfileSteam {
+      color: #95989A;
+      .SteamInfo {
+        border-top: 2px solid #65CED3;
+        border-bottom: 2px solid #65CED3;
+        > span {
+          img { border-color: #65CED3; }
+        }
+        .Name {}
+        .Balance {}
+        .logOut { color: #95989A; }
+      }
+      .avatar { border-color: #65CED3 }
+    }
+    .LogSteam {
+      .avatar {
+       }
+      .SteamInfo {
+        border-top: 2px solid #CB0000;
+        border-bottom: 2px solid #CB0000;
+        a {
+          color: #95989A;
+        }
+      }
+      .block-i{
+        border: 2px solid #CB0000;
+        border-radius: 50px;
+        background: #1D1E21;
+        i{
+          color: #CB0000;
+        }
+      }
+    }
+  }
+  .Content { color: #FD4418; }
+  .leftContent {
+    .blockMenu {
+      box-shadow:10px 10px 30px 1px rgba(0, 0, 0,1) ; 
+      background: rgba(29, 30, 33, 0.95);
+      ul {
+        a {
+          color: #95989A;
+          li {
+
+            i{
+              color: #FD4418;
+              border-color:#FD4418;
+            }
+            p {}
+            .gradient {}
+          }
+        }
+        li.active {
+          /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,6a1d1a+100&0+0,1+100 */
+          background: -moz-linear-gradient(top, rgba(30,87,153,0) 0%, rgba(106,29,26,1) 100%); /* FF3.6-15 */
+          background: -webkit-linear-gradient(top, rgba(30,87,153,0) 0%,rgba(106,29,26,1) 100%); /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to bottom, rgba(30,87,153,0) 0%,rgba(106,29,26,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#6a1d1a',GradientType=0 ); /* IE6-9 */
+          i {}
+          p {
+            color: #95989A;
+          }
+          .gradient {}
+          .gradient:nth-child(2n) {}
+        }      
+      }
+    }
+    .marketingBlock {
+      .info { background: #1D1E21; }
+    }
+  }
+
+  .rightContent {
+    .blockGame {
+      background: rgba(29, 30, 33, 0.8);
+      .header {
+        background: rgba(27, 25, 28, 0.8);
+        .btn-time-block{
+          margin-left: 0px;
+          a {
+            div {
+            }
+          }
+          a.active{
+            div{
+              background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+              border-color: #00ffe0;
+            }
+          }
+        }
+        h1 { color: #FD4418; }
+        .logSteam {
+          color: #FD4418;
+          div {
+            background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+            border: 2px solid #CB0000;
+            span {}
+            img {}
+          }
+        }
+      }
+    
+      .load{
+        border: solid 2px #CB0000;
+        &-active {
+          background-color: #0da3ab;
+        }
+        //background: -moz-linear-gradient(left, rgba(0,0,0,0.4) 0%, rgba(38,29,29,0.41) 2%, rgba(251,68,24,1) 99%, rgba(253,68,24,1) 100%);
+        //background: -webkit-linear-gradient(left, rgba(0,0,0,0.4) 0%,rgba(38,29,29,0.41) 2%,rgba(251,68,24,1) 99%,rgba(253,68,24,1) 100%);
+        //background: linear-gradient(to right, rgba(0,0,0,0.4) 0%,rgba(38,29,29,0.41) 2%,rgba(251,68,24,1) 99%,rgba(253,68,24,1) 100%);
+        //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66000000', endColorstr='#fd4418',GradientType=1 );
+      }
+      .infoGame {
+        a {
+          color: #95989A;
+          .btn-bet {
+            background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+            border-color: #CB0000;
+          }
+        }
+        .block {
+          h1 {}
+          span {
+            span {}
+          }
+
+          a{
+            color: #95989A;
+            .btn-bet{
+              background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+              border-color: #CB0000;
+            }
+          }  
+        } 
+      }
+      .blockHazard {
+        background: #1D1E21;
+        .infoUser {
+          background: #1D1E21;
+          border-radius: 15px;
+          border: 2px solid #FD4418;
+          .avatarHazard {}
+          span {}
+        }
+      }
+      .blockItem {
+        .infoItem {
+          .avatar { border: 2px solid #FD4418; }
+          .infoPlayer {}
+          .infoRandom {
+            float: right;
+            margin-top: 30px;
+          }
+        }
+        .itemGame {
+          background: #1D1E21;
+          hr { background: #FD4418; }
+          .itemBlock {
+            background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+            img {}
+            hr {}
+            h3 { color: #95989A; }
+          }
+        }
+      }
+
+
+  /*-----------------Game start--------------------*/  
+      .line {
+        background: #FD4418;
+      }
+      .StartGame { 
+        .blockUser {
+          img {
+          }
+        }
+      }
+      .infoStartGame {
+        background: linear-gradient(to bottom, #450c0a 0%, #200505 40%, #22252a 100%);
+        .leftInfo {
+          h2:nth-child(2n) {
+            margin-top: 10px;
+          }
+          h2{
+            span{
+              color: #00ffe0;
+            }
+          }
+          h1 { margin-top: 55px; }
+        }
+        .rightInfo {
+          h1 {
+            span {
+              border: 2px solid #00ffe0;
+              div {
+              }
+            }
+          }
+          a {
+            .btn-game {
+              background: red;
+            }
+          }  
+        }
+      }
+    }
+
+/*-----------------Profile--------------------*/
+
+    .profile {
+      .btn-inv {
+        border-color: #fd4418;
+        color: #fd4418;
+      }
+    }
+      .avatar{
+        border-color: #FD4418;
+      }
+      .infoProfile {
+        .block {
+          span {
+            hr {
+            }
+          }
+          span:first-child {
+          }
+        }
+      }
+      .name-user {
+        span {
+        }
+      }
+      .linkSteam {
+        h1 {
+          span {}
+        }
+        a { color: #95989A; }
+        div {
+          input {
+            background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+            color: #00ffe0;
+            border: 2px solid #CB0000;
+          }
+          .btn {
+            background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+            border-color: #CB0000;
+            color: #95989A;
+          }
+        }
+      }
+      .achive {
+        > a { color: rgba(212, 66, 25, 0.8); }
+        .structureAchive {
+          .blockAchive {
+            img {
+              border: 2px solid #FF05E1;
+            }
+            .content {
+              .gradient {
+              }
+              .info {
+                span {
+                }
+                span:first-child {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+
+/*-----------------History--------------------*/
+
+
+    .History {
+      background: #1D1E21;
+      .h-info {
+        .blockAvatar {
+          img {}
+        }
+        .t-info {
+          div span { color: #95989A; }
+          > a { color: #95989A; }
+        }
+      }
+      .b-item-win {
+        .header-item {
+          span {
+          }
+          span:last-child {
+            span {
+              color: #95989A;
+            }
+          }
+        }
+        .itemBlock {
+          background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+          h3 {}
+        }
+      }
+    }
+
+/*-----------------Top--------------------*/
+
+    .info-top {
+      .block {
+        span {
+          hr {
+          }
+        }
+        span:first-child {
+        }
+      }
+    }
+    .info-top-player {
+      background: #1D1E21;
+      .h-info {
+        border-bottom: 2px solid #00ffe0;;
+        background: linear-gradient(to bottom, #450c0a 0%, #200505 40%, #22252a 100%) !important;
+        div {
+        }
+        div:first-child {
+        }
+      }
+      .b-info {
+        div {
+        }
+        .b-place {
+        }
+        .b-profile {
+          img {
+          }
+        }
+        .b-win {
+        }
+        .b-money {
+        }
+      }
+    }
+
+
+/*-----------------Shop--------------------*/
+
+  .select {
+    background: #1D1E21;
+    .header {
+      background: none !important;
+      border-bottom: 2px solid #00ffe0;
+      h1 {
+      }
+      span {
+      }
+    }
+    .selectItem {
+      .block {
+        span {
+        }
+        select {
+          background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+          color: #95989A;
+          option {
+          }
+        }
+        .jq-selectbox{
+          width: 100%;
+          li{
+            color: #00ffe0;
+          }
+          .jq-selectbox__select{
+            background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+            color: #F8A200;
+            border-color: #FD4418;
+            box-shadow: none;
+            text-shadow: none;
+            .jq-selectbox__trigger{
+              border-left: none;
+            }
+            .jq-selectbox__select-text{
+            }
+          }
+          .jq-selectbox__dropdown{
+            border: none;
+            background: linear-gradient(to bottom, #450c0a 0%, #200505 40%, #22252a 100%);
+          }
+        }
+      }
+    }
+    .selectPage {
+      .sell {
+        a {
+          color: #95989A;
+          &:hover { color: #aaadaf; }
+        }
+      }
+      .search {
+        input {
+          background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+        }
+        button {
+          background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+          color: #FD4418;
+          &:hover { color: #00ffe0; }
+        }
+      }
+      .backet{
+        a {
+          color: #F8A200;
+        }
+        .btn-page {
+          div {
+            background: #F8A200;
+          }
+        }
+      }
+    }
+  }
+
+  .itemNav {
+    .nav {
+      a {
+        color: #FD4418;
+        i { font-size: 40px; }
+      }
+      a:last-child { margin-left: 20px; }
+      input {
+        background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);;
+        color: #00ffe0;
+      }
+      > span {
+        float: left;
+        margin-left: 10px;
+        margin-top: 15px;
+      }
+    }
+  }
+
+  .b-basket-toggle {
+    &:hover { color: #ff0024; }
+  }
+
+  .b-basket {
+    background: #1D1E21;
+    border-bottom: 2px solid #FD4418;
+    &.active {
+      height: 500px;
+      opacity: 1;
+      transition: height 0s, opacity .3s ease-in-out;
+    }
+    .b-header {
+      background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+      div {
+      }
+    }
+    .b-basket-item {
+    }
+    .itemShop {
+      margin-top: 0;
+      .block{ margin-top: 20px; }
+    }
+    .buy-item {
+      background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+      span {
+        color: #FD4418;
+      }
+      a {
+        color: #FFF;
+        div {
+          background: #FD4418;
+        }
+      }
+    }
+  }
+
+  .b-item {
+    background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+    hr { background: red; }
+    &-name { background: #2b2527; }
+    &-price { background: #2b2527; }
+  }
+
+  .itemBlock {
+    background: #1D1E21;
+    img {
+    }
+    hr {
+    }
+    h3 {
+      color: #a5a5a5;
+    }
+    .itemInfo {
+      span {
+        color: #a5a5a5;
+      }
+    }
+    &:hover {
+      .itemInfo { opacity: 1; }
+    }
+    &::after {
+      background-color: #f0f0f0;
+    }
+    .fa {
+      color: #FD4418;
+    }
+    &.active {
+      &::after { opacity: 0.1; }
+      & .fa { opacity: 1; }
+    }
+  }
+  .new-bet .itemBlock { background: linear-gradient(to bottom, #450c0a 0%, #200505 40%, #22252a 100%); }
+
+  .list-avatars-wrap {
+  }
+  .list-avatars {
+  }
+  .blockUser {
+    border: 1px solid #00ffe0;
+    img {
+    }
+  }
+
+
+/*-----------------Chat--------------------*/
+  .b-chat {
+    background: transparent;
+    > div, > form {
+    }
+    > i {
+      color: #CB0000;
+      &:hover { color: #65CED3; }
+    }
+    > i:hover{
+      color: #65CED3;
+    }
+    &.active {
+      background: #1D1E21;
+      > div, > form { opacity: 1; }
+      > i {
+      }
+    }
+    .b-header {
+      background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+      div {
+      }
+    }
+    .message {
+    }
+    .b-user {
+      .b-info {
+        .avatar {
+        }
+        h1 {
+        }
+        .r-h1 {
+        }
+      }
+      .b-text {
+      }
+    }
+    .text-chat {
+      background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+      input {
+        background: linear-gradient(to bottom, #22252a 0%, #1f2824 54%, #070908 100%);
+        color: #65CED3;
+      }
+      button {
+        i {
+          font-size: 26px;
+          color: #CB0000;
+          transition: color .2s ease-in-out;
+        }
+        &:hover i { color: #65CED3;; }
+      }
+    }
+  }
+  .AchievementsList{
+    .name{
+      background: linear-gradient(to bottom, #450c0a 0%, #200505 40%, #22252a 100%);
+      a{
+        color: #00ffe0;
+      }
+    }
+    .block-pack{
+      .pack{
+        background: rgba(0, 0, 0, 0.5);
+        img{
+          border: 2px solid #FF05E1;
+        }
+        .block{
+          .info{
+            span{
+            }
+            span:first-child{
+            }
+            .content{
+            }
+          }
+        }
+      }
+    }
+  }
+  .win-achieve{
+      img{
+        border: 2px solid #65CED3;
+      }
+    .info{
+      div:first-child{
+      }
+      div{
+      }
+    }
+  }
+}
+
