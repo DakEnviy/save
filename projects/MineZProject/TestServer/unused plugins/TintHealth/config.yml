@@ -1,0 +1,23 @@
+options:
+  fade-enabled: true
+  fade-time: 15
+  intensity-modifier: 1
+  minimum-health: -1
+  enabled: true
+  debug: false
+damage-mode:
+  enabled: false
+messages:
+  prefix: '&4❤&7 '
+  no-permission: '&cУ вас нету прав для выполнения данной команды!'
+  tint-enabled: '&cTint is now &aenabled&c.'
+  tint-disabled: '&cTint is now &7disabled&c.'
+  texture-sent: '&cBlood texture has been sent. If you did not enable server resource
+    pack, nothing will happen.'
+  commands:
+    available: ' &l&eДоступные команды:'
+    reload: ' &cПерезапуск плагина!'
+    toggle: ' &cВключает/выключает эффект для вас!'
+    blood: ' &cInstall a blood texture. Credit goes to Macaron on the Spigot forums
+      !'
+    none: None !

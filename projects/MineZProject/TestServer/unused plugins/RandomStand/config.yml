@@ -1,0 +1,122 @@
+#кожанная стойка
+LeatherStand:
+#Оружие
+ armor: 
+ #Чем больше цыфра, тем реже спавниться броня.
+  rand: 3
+  #max 59, Если 0 то броня целлая. Чем больше, тем сильнее сломана броня.
+  damage: 43  
+  #Если 1 то накладываються рандомные чары, если 0 то нет.
+  enchant: 0
+#Шлем  
+ helmet: 
+  rand: 3
+  #max 55
+  damage: 35
+  enchant: 0
+#Нагрудник  
+ chest: 
+  rand: 3
+  #max 80
+  damage: 55
+  enchant: 0
+#шьаны  
+ leggins:
+  rand: 3
+  #max 75
+  damage: 55
+  enchant: 0
+#Сапоги 
+ boots: 
+  rand: 3
+  #max 65
+  damage: 45
+  enchant: 0
+#Кольчужная стойка  
+ChainStand:
+ armor: 
+  rand: 3
+  damage: 125
+  enchant: 0
+ helmet: 
+  rand: 3
+  damage: 125
+  enchant: 0
+ chest: 
+  rand: 3
+  damage: 200
+  enchant: 0
+ leggins:
+  rand: 3
+  damage: 180
+  enchant: 0
+ boots: 
+  rand: 3
+  damage: 150
+  enchant: 0
+#Железная стойка  
+IronStand:
+ armor: 
+  rand: 3
+  damage: 250  
+  enchant: 0
+ helmet: 
+  rand: 3
+  damage: 130
+  enchant: 0
+ chest: 
+  rand: 3
+  damage: 200
+  enchant: 0
+ leggins:
+  rand: 3
+  damage: 175
+  enchant: 0
+ boots: 
+  rand: 3
+  damage: 165
+  enchant: 0
+#Золотая стойка  
+GoldStand:
+ armor: 
+  rand: 3
+  damage: 32  
+  enchant: 1
+ helmet: 
+  rand: 3
+  damage: 77
+  enchant: 1
+ chest: 
+  rand: 3
+  damage: 112
+  enchant: 1
+ leggins:
+  rand: 3
+  damage: 105
+  enchant: 1
+ boots: 
+  rand: 3
+  damage: 91
+  enchant: 1
+#Алмазная стойка  
+DiamondStand:
+ armor: 
+  rand: 3
+  damage: 1561  
+  enchant: 1
+ helmet: 
+  rand: 3
+  damage: 363
+  enchant: 1
+ chest: 
+  rand: 3
+  damage: 528
+  enchant: 1
+ leggins:
+  rand: 3
+  damage: 495
+  enchant: 1
+ boots: 
+  rand: 3
+  damage: 429
+  enchant: 1

@@ -1,0 +1,47 @@
+respawnRate: 1800
+lootRate:
+  low: 1
+  high: 4
+zombieTier: 1
+loot:
+  entry0:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: RAW_FISH
+    durability:
+      low: 100
+      hi: 100
+    probability: 30
+  entry1:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: APPLE
+    durability:
+      low: 100
+      hi: 100
+    probability: 20
+  entry2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MELON
+    durability:
+      low: 100
+      hi: 100
+    probability: 20
+  entry3:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WHEAT
+    durability:
+      low: 100
+      hi: 100
+    probability: 10
+  entry4:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 3
+    durability:
+      low: 100
+      hi: 100
+    probability: 10

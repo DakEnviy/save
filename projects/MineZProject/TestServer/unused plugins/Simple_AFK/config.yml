@@ -1,0 +1,13 @@
+Prefix:
+  Enabled: false
+  AfkPrefix: '&4[AFK]&f'
+Afk:
+  Enabled: true
+  Time: 180
+  NoLongerAfk: '%PLAYERDISP% вышел из режима AFK'
+  IsAfk: '%PLAYERDISP% находится в режиме AFK'
+  Radius: 5
+Kick:
+  Enabled: true
+  Time: 60
+  KickReason: '%PLAYERDISP% Вы были в режиме AFK слишком долго!'

@@ -1,0 +1,189 @@
+Error occured at 2017-01-29-13-09
+Additional info: /127.0.0.1:64135, MINECRAFT_1_10
+Exception class: java.io.IOException
+Exception message: Программа на вашем хост-компьютере разорвала установленное подключение
+Exception log:
+java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:225)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:745)
+
+Error occured at 2017-01-29-14-00
+Additional info: /127.0.0.1:65481, MINECRAFT_1_6_4
+Exception class: java.io.IOException
+Exception message: Программа на вашем хост-компьютере разорвала установленное подключение
+Exception log:
+java.io.IOException: Программа на вашем хост-компьютере разорвала установленное подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:225)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:745)
+
+Error occured at 2017-01-29-14-00
+Additional info: /109.252.62.236:4116, MINECRAFT_1_10
+Exception class: io.netty.handler.codec.DecoderException
+Exception message: java.lang.RuntimeException: An internal error occured.
+Exception log:
+io.netty.handler.codec.DecoderException: java.lang.RuntimeException: An internal error occured.
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:280)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:149)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:273)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at protocolsupport.protocol.pipeline.initial.InitialPacketDecoder.setProtocol(InitialPacketDecoder.java:160)
+	at protocolsupport.protocol.pipeline.initial.InitialPacketDecoder.decode(InitialPacketDecoder.java:145)
+	at protocolsupport.protocol.pipeline.initial.InitialPacketDecoder.channelRead0(InitialPacketDecoder.java:97)
+	at protocolsupport.protocol.pipeline.initial.InitialPacketDecoder.channelRead0(InitialPacketDecoder.java:27)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at protocolsupport.protocol.pipeline.timeout.SimpleReadTimeoutHandler.channelRead(SimpleReadTimeoutHandler.java:39)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: An internal error occured.
+	at com.comphenix.protocol.reflect.accessors.DefaultMethodAccessor.invoke(DefaultMethodAccessor.java:20)
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:522)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:249)
+	... 27 more
+Caused by: java.lang.NullPointerException
+	at us.myles.ViaVersion.protocols.base.BaseProtocol$3$1.handle(BaseProtocol.java:160)
+	at us.myles.ViaVersion.api.remapper.PacketHandler.write(PacketHandler.java:18)
+	at us.myles.ViaVersion.api.remapper.PacketRemapper.remap(PacketRemapper.java:96)
+	at us.myles.ViaVersion.api.protocol.Protocol.transform(Protocol.java:150)
+	at us.myles.ViaVersion.protocols.base.BaseProtocol.transform(BaseProtocol.java:227)
+	at us.myles.ViaVersion.api.PacketWrapper.apply(PacketWrapper.java:409)
+	at us.myles.ViaVersion.api.protocol.ProtocolPipeline.transform(ProtocolPipeline.java:73)
+	at us.myles.ViaVersion.classgenerator.generated.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.comphenix.protocol.reflect.accessors.DefaultMethodAccessor.invoke(DefaultMethodAccessor.java:16)
+	... 29 more
+
+Error occured at 2017-01-29-14-00
+Additional info: /109.252.62.236:4116, MINECRAFT_1_10
+Exception class: io.netty.handler.codec.DecoderException
+Exception message: java.lang.RuntimeException: An internal error occured.
+Exception log:
+io.netty.handler.codec.DecoderException: java.lang.RuntimeException: An internal error occured.
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:280)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:149)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:273)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at protocolsupport.protocol.pipeline.initial.InitialPacketDecoder.setProtocol(InitialPacketDecoder.java:160)
+	at protocolsupport.protocol.pipeline.initial.InitialPacketDecoder.decode(InitialPacketDecoder.java:145)
+	at protocolsupport.protocol.pipeline.initial.InitialPacketDecoder.channelRead0(InitialPacketDecoder.java:97)
+	at protocolsupport.protocol.pipeline.initial.InitialPacketDecoder.channelRead0(InitialPacketDecoder.java:27)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at protocolsupport.protocol.pipeline.timeout.SimpleReadTimeoutHandler.channelRead(SimpleReadTimeoutHandler.java:39)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: An internal error occured.
+	at com.comphenix.protocol.reflect.accessors.DefaultMethodAccessor.invoke(DefaultMethodAccessor.java:20)
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:522)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:249)
+	... 27 more
+Caused by: us.myles.ViaVersion.exception.InformativeException: Please post this error to http://github.com/MylesIsCool/ViaVersion/issues
+{Type: VarInt, Source #0: us.myles.ViaVersion.protocols.base.BaseProtocol$3 (Anonymous), Data: [], Packet ID: 0}
+Actual Error: 
+Caused by: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): UnpooledHeapByteBuf(ridx: 1, widx: 1, cap: 1)
+	at io.netty.buffer.AbstractByteBuf.checkReadableBytes(AbstractByteBuf.java:1175)
+	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:570)
+	at us.myles.ViaVersion.api.type.types.VarIntType.read(VarIntType.java:38)
+	at us.myles.ViaVersion.api.type.types.VarIntType.read(VarIntType.java:7)
+	at us.myles.ViaVersion.api.PacketWrapper.read(PacketWrapper.java:146)
+	at us.myles.ViaVersion.api.remapper.TypeRemapper.read(TypeRemapper.java:15)
+	at us.myles.ViaVersion.api.remapper.PacketRemapper.remap(PacketRemapper.java:94)
+	at us.myles.ViaVersion.api.protocol.Protocol.transform(Protocol.java:150)
+	at us.myles.ViaVersion.protocols.base.BaseProtocol.transform(BaseProtocol.java:227)
+	at us.myles.ViaVersion.api.PacketWrapper.apply(PacketWrapper.java:409)
+	at us.myles.ViaVersion.api.protocol.ProtocolPipeline.transform(ProtocolPipeline.java:73)
+	at us.myles.ViaVersion.classgenerator.generated.BukkitDecodeHandler.decode(BukkitDecodeHandler.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.comphenix.protocol.reflect.accessors.DefaultMethodAccessor.invoke(DefaultMethodAccessor.java:16)
+	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:522)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:249)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:149)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at com.comphenix.protocol.injector.netty.ChannelInjector$4.channelRead(ChannelInjector.java:273)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:163)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at protocolsupport.protocol.pipeline.initial.InitialPacketDecoder.setProtocol(InitialPacketDecoder.java:160)
+	at protocolsupport.protocol.pipeline.initial.InitialPacketDecoder.decode(InitialPacketDecoder.java:145)
+	at protocolsupport.protocol.pipeline.initial.InitialPacketDecoder.channelRead0(InitialPacketDecoder.java:97)
+	at protocolsupport.protocol.pipeline.initial.InitialPacketDecoder.channelRead0(InitialPacketDecoder.java:27)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at protocolsupport.protocol.pipeline.timeout.SimpleReadTimeoutHandler.channelRead(SimpleReadTimeoutHandler.java:39)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:333)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:319)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:787)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:130)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116)
+	at java.lang.Thread.run(Thread.java:745)
+

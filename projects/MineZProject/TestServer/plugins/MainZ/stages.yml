@@ -1,0 +1,59 @@
+thirst_message:
+  '8': В горле пересохло...
+  '5': Я хочу пить.
+  '3': Я очень хочу пить.
+  '0': Если я немедленно не найду воду, я умру.
+thirst_damage: 1
+thirst_period_damage: 10
+change_thirst_time: 3600
+fracture:
+  low:
+    message: Кажется я сломал ногу...
+    damage: 1
+    speed: 0.18
+    time: 0
+  medium:
+    message: Нога ужасно болит...
+    damage: 2
+    speed: 0.16
+    time: 180
+  high:
+    message: Я не могу идти...
+    damage: 3
+    speed: 0.14
+    time: 300
+bleeding_stage:
+  low:
+    damage: 1
+    time: 60
+    message: Я истекаю кровью...
+  medium:
+    damage: 2
+    time: 180
+    message: Я потерял много крови...
+  high:
+    damage: 3
+    time: 300
+    message: Кажется я умираю, я потерял слишком много крови...
+bleeding_stage_period: 5
+visibility:
+  shift:
+    experience: 0.3
+    distance: 5
+  walk:
+    experience: 0.6
+    distance: 9
+  run:
+    experience: 0.9
+    distance: 14
+fracture_title: §cУ вас перелом
+fracture_subtitle: §eСкорость движения снижена.
+bleeding_title: §cУ вас началось кровотечение
+bleeding_subtitle: ''
+fracture_chance: 15
+bleeding_chance: 15
+fracture_only_fall: false
+bleeding_end: §aВы упешно остановили кровотечение
+no_bleeding: §cУ вас нет кровотечения.
+fracture_end: §aВы залечили перелом. Скорость ввостановлена.
+no_fracture: §cУ вас нет перелома.

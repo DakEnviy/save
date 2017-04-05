@@ -1,0 +1,63 @@
+respawnRate: 1800
+lootRate:
+  low: 2
+  high: 5
+zombieTier: 0
+loot:
+  entry0:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_BOOTS
+    durability:
+      low: 0
+      hi: 25
+    probability: 15
+  entry1:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+    durability:
+      low: 0
+      hi: 25
+    probability: 15
+  entry2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_CHESTPLATE
+    durability:
+      low: 0
+      hi: 25
+    probability: 15
+  entry3:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_HELMET
+    durability:
+      low: 0
+      hi: 25
+    probability: 15
+  entry4:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: STONE_SWORD
+    durability:
+      low: 0
+      hi: 25
+    probability: 15
+  entry5:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOW
+    durability:
+      low: 0
+      hi: 20
+    probability: 15
+  entry6:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 2
+    durability:
+      low: 100
+      hi: 100
+    probability: 20

@@ -1,0 +1,56 @@
+respawnRate: 1800
+lootRate:
+  low: 1
+  high: 3
+zombieTier: 2
+loot:
+  entry0:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: COOKIE
+      amount: 2
+    durability:
+      low: 100
+      hi: 100
+    probability: 20
+  entry1:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: APPLE
+    durability:
+      low: 100
+      hi: 100
+    probability: 10
+  entry2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MELON
+    durability:
+      low: 100
+      hi: 100
+    probability: 20
+  entry3:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: WHEAT
+    durability:
+      low: 100
+      hi: 100
+    probability: 15
+  entry4:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: INK_SACK
+      damage: 3
+    durability:
+      low: 100
+      hi: 100
+    probability: 15
+  entry5:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MUSHROOM_SOUP
+    durability:
+      low: 100
+      hi: 100
+    probability: 10

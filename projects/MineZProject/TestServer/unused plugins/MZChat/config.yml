@@ -1,0 +1,20 @@
+World: world
+onlyinWorld: true
+Radio:
+   id: 381
+   distance: 30
+Killing:
+   enable: false
+   seconds: 6
+   withradio: false
+TMCz:
+   enable: false
+   displaymode: 0
+Messages:
+   opColor: c
+   radioColor: a
+   canexit: '&nYou can exit'
+   moving: You are moving! Exit denied!
+   killoff: You can exit when you want
+   noradio: You have not ration in hand
+   timerstart: You can logout after

@@ -1,0 +1,119 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&3[&aИгрок&3] &f'
+    permissions:
+    - commandbook.who
+    - commandbook.rules
+    - commandbook.time.check
+    - commandbook.biome
+    - commandbook.biome.other
+    - commandbook.msg
+    - commandbook.debug.info
+    - commandbook.chatex.allowchat
+  Moderator:
+    options:
+      default: false
+      prefix: '&e[&4Модератор&e] &9'
+    inheritance:
+    - default
+    permissions:
+    - commandbook.bans.isbanned
+    - commandbook.bans.unban
+    - commandbook.bans.ban
+    - commandbook.kick
+    - commandbook.gamemode.check.other
+    - commandbook.gamemode.check
+    - commandbook.gamemode.change.other
+    - commandbook.gamemode.change
+    - commandbook.gamemode
+    - commandbook.mute
+    - commandbook.say.me
+    - commandbook.say
+    - commandbook.broadcast
+    - commandbook.spawn
+    - commandbook.teleport
+    - commandbook.locations.coords
+    - commandbook.return
+    - worldedit.butcher
+  Admin:
+    options:
+      default: false
+      prefix: '&e[&4Администратор&e] &9'
+    inheritance:
+    - default
+    permissions:
+    - '*'
+  Chat:
+    options:
+      default: false
+      prefix: '&e[&4Чат-модератор&e] &9'
+    inheritance:
+    - default
+    permissions:
+    - commandbook.mute
+  Builder:
+    options:
+      default: false
+      prefix: '&e[&4Строитель&e] &9'
+    inheritance:
+    - default
+    permissions:
+    - worldedit.help
+    - commandbook.gamemode.check.other
+    - commandbook.gamemode.check
+    - commandbook.gamemode.change.other
+    - commandbook.gamemode.change
+    - worldedit.navigation.thru.command
+    - worldedit.navigation.unstuck
+    - worldedit.navigation.ascend
+    - worldedit.navigation.descend
+    - worldedit.navigation.jumpto.command
+    - worldedit.biome.list
+    - worldedit.generation.sphere
+    - worldedit.generation.cylinder
+    - worldedit.generation.sphere
+    - worldedit.generation.pyramid
+    - worldedit.generation.forest
+    - worldedit.selection.chunk
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldedit.wand
+    - worldedit.clipboard.load
+    - worldedit.clipboard.save
+    - worldedit.clipboard.copy
+    - worldedit.clipboard.rotate
+    - worldedit.clipboard.cut
+    - worldedit.clipboard.paste
+    - worldedit.tool.info
+    - worldedit.brush.sphere
+    - worldedit.brush.cylinder
+    - worldedit.brush.smooth
+    - worldedit.replacenear
+    - worldedit.removenear
+    - worldedit.butcher
+    - commandbook.spawn
+    - commandbook.teleport
+schema-version: 1
+users:
+  b543c44c-eff8-3ee7-9e90-de065c9dd479:
+    group:
+    - administrator
+    options:
+      name: Stalk007
+  bbbb7c0b-445f-3b0f-9f74-db76abbb9fd6:
+    group:
+    - Builder
+    options:
+      name: Mrak_
+  d4706839-63dd-305b-9b89-921383689875:
+    group:
+    - Builder
+    options:
+      name: Dimonishe
+  9f58ff53-6ce3-30a9-9af0-920752372d6a:
+    group:
+    - Builder
+    options:
+      name: minefak

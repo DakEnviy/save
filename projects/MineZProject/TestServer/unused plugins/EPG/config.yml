@@ -1,0 +1,4 @@
+radius: 5.0
+damage:
+ leather: 0.8
+ iron: 0.6

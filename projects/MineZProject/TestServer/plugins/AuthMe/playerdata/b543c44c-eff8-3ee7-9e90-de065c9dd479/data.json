@@ -1,0 +1,15 @@
+{
+  "group": "",
+  "location": {
+    "world": "game1",
+    "x": 11.896894716805877,
+    "y": 6.0,
+    "z": -23.441595438372588,
+    "yaw": 82.200226,
+    "pitch": 51.149952
+  },
+  "operator": false,
+  "can-fly": false,
+  "walk-speed": 0.2,
+  "fly-speed": 0.1
+}

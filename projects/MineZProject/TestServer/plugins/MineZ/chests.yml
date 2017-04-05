@@ -1,0 +1,31 @@
+#В этом конфиге. Хранятся данные об арморстендах.
+# 1. У каждого арморстенда есть, своя локация.
+# 2. У каждого стенда, есть пул предметов, пул описан по пути stands.name.items. 
+#Каждый предмет под пул должен иметь свой шанс, свой тип (helmet, chestplate, leggings, hand, boots) и собственно сам айди предмета.
+#3. Каждый стенд, имеет список UUID. - эту графу трогать не стоит. Там все автоматизировано.
+#Соблюдайте спецификацию YML. Для каждой секции, необходимо делать 2 пробела.
+chest_force: true
+chest_update_time: 600
+chest:
+  chest1:
+    location: world:0.0:0.0:0.0:0.0:0.0
+    items:
+      '1':
+        item: 285:20:1:none:none
+        chance: 50
+      '2':
+        item: 279:40:1:none:none
+        chance: 40
+    maxItem: 4
+    minItem: 2
+  chest2:
+    location: world:0.0:0.0:0.0:0.0:0.0
+    items:
+      '1':
+        item: 285:20:1:none:none
+        chance: 50
+      '2':
+        item: 279:40:1:none:none
+        chance: 40
+    maxItem: 4
+    minItem: 2

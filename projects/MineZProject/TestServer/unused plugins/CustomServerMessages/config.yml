@@ -1,0 +1,86 @@
+Plugin:
+  Updates: false
+  Metrics: true
+Event:
+  Join:
+    Enable: true
+    Message: '&6%Player &9вошел в игру!'
+  Quit:
+    Enable: true
+    Message: '&6%Player &9вышел из игры!'
+  Whitelist:
+    Enable: false
+    Message: '&4Sorry. &6You are not on the Whitelist!'
+  ServerFull:
+    Enable: true
+    Message: '&4Извините! &6Сервер полон, попробуйте зайти позже!'
+Server:
+  Motd:
+    Enable: true
+    Messages:
+    - '&b        ＜－Ｆｒｅｅｄｏｍ ＥＰＩＣ ＭｉｎｅＺ ｗｏｒｌｄ－＞    §3Огромная карта! §4Полная копия
+      оригинального MineZ. Версия 1.8!'
+    - '&4        ＜－Ｆｒｅｅｄｏｍ ＥＰＩＣ ＭｉｎｅＺ ｗｏｒｌｄ－＞    §3Огромная карта! §4Полная копия
+      оригинального MineZ. Версия 1.8!'
+    - '&1        ＜－Ｆｒｅｅｄｏｍ ＥＰＩＣ ＭｉｎｅＺ ｗｏｒｌｄ－＞    §3Огромная карта! §4Полная копия
+      оригинального MineZ. Версия 1.8!'
+    - '&7        ＜－Ｆｒｅｅｄｏｍ ＥＰＩＣ ＭｉｎｅＺ ｗｏｒｌｄ－＞    §3Огромная карта! §4Полная копия
+      оригинального MineZ. Версия 1.8!'
+    - '&6        ＜－Ｆｒｅｅｄｏｍ ＥＰＩＣ ＭｉｎｅＺ ｗｏｒｌｄ－＞    §3Огромная карта! §4Полная копия
+      оригинального MineZ. Версия 1.8!'
+    - '&a        ＜－Ｆｒｅｅｄｏｍ ＥＰＩＣ ＭｉｎｅＺ ｗｏｒｌｄ－＞    §3Огромная карта! §4Полная копия
+      оригинального MineZ. Версия 1.8!'
+    - '&2        ＜－Ｆｒｅｅｄｏｍ ＥＰＩＣ ＭｉｎｅＺ ｗｏｒｌｄ－＞    §3Огромная карта! §4Полная копия
+      оригинального MineZ. Версия 1.8!'
+Command:
+  Say:
+    Enable: true
+    Message: '&6[%Player] >>> &b%Message'
+  Me:
+    Enable: true
+    Message: '&6* %Player &b%Message'
+  Plugins:
+    Enable: true
+    Message: '&4У вас нету прав для совершения этого действия!'
+  Version:
+    Enable: true
+    Message: '&4У вас нету прав для совершения этого действия!'
+  Seed:
+    Enable: true
+    Message: '&4У вас нету прав для совершения этого действия!'
+DeathMessages:
+  Enable: true
+  Messages:
+    Drowned: '&6%Player &9отправился на корм рыбам'
+    FallDamage: '&6%Player &9прыгнул с большой высоты'
+    Void: '&6%Player &9выпал из мира'
+    Lava: '&6%Player &9попробовал поплавать в лаве'
+    Fire: '&6%Player &9сгорел в огне'
+    Explosion: '&6%Player &9был взорван'
+    Magic: '&6%Player &9был убит с помощью магии'
+    Suffocated: '&6%Player &9застрял в стене'
+    Projectile: '&6%Player &9was pricked to death'
+    Starved: '&6%Player &9умер от голода'
+    Withered: '&6%Player &9withered away'
+    Died: '&6%Player &9умер'
+    Player: '&6%Killer &9killed &6%Killed &9с помощью %Item'
+    Slain:
+      Pigman: '&6%Player &9was slain by Zombie Pigman'
+      Zombie: '&6%Player &9был убит зомби'
+      Spider: '&6%Player &9was slain by Spider'
+      Silverfish: '&6%Player &9was slain by Silverfish'
+      Slime: '&6%Player &9was slain by Slime'
+      Creeper: '&6%Player &9was blown up by Creeper'
+      MagmaCube: '&6%Player &9was slain by Magma Cube'
+      Enderman: '&6%Player &9was slain by Enderman'
+      EnderDragon: '&6%Player &9was slain by EnderDragon'
+      CaveSpider: '&6%Player &9was slain by CaveSpider'
+      IronGolem: '&6%Player &9was slain by IronGolem'
+      Wolf: '&6%Player &9was slain by Wolf'
+      Giant: '&6%Player &9был убит гигантом'
+      Wither: '&6%Player &9was slain by Wither'
+      Skeleton: '&6%Player &9was shot by Skeleton'
+      Blaze: '&6%Player &9was fireballed by Blaze'
+      Ghast: '&6%Player &9was fireballed by Ghast'
+      Witch: '&6%Player &9was slain by Witch'
+      WitherSkeleton: '&6%Player &9was slain by WitherSkeleton'

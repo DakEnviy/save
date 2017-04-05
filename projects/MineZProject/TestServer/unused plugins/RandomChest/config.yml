@@ -1,0 +1,590 @@
+select-tool: 289 #порох
+remove-tool: 353 #сахар
+chestset:
+  firstchest: #название типа
+   min: 2 #минимальное количество возможного лута
+   max: 5 #максимальное количество возможного лута
+   customname: "firstchest"
+   powered: false #включить управление редстоуном
+   break: false #включить разрушение сундуков
+   respawn: [520, 1040, 1560] #время в секундах через которое стоит распаунить вещи
+   items:
+    - id: 268 # меч
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "My Sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 268 # меч
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "My Sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 268 # меч
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "My Sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество     
+    - id: 298 # кож шлем
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "leather_helmet" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 299 # кож грудак
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "leather_chestplate" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 300 # кож поножи
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "leather_leggings" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 301 # сапоги
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "leather_boots" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество       
+  secondchest: #название типа
+   min: 2 #минимальное количество возможного лута
+   max: 3 #максимальное количество возможного лута
+   customname: "secondchest"
+   powered: false #включить управление редстоуном
+   break: false #включить разрушение сундуков
+   respawn: [520, 1040, 1560] #время в секундах через которое стоит распаунить вещи
+   items:
+    - id: 261 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "bow" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 262 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "arrow" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество   
+    - id: 262 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "arrow" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество   
+    - id: 262 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "arrow" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество   
+    - id: 262 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "arrow" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество   
+    - id: 262 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "arrow" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество   
+    - id: 262 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "arrow" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество      
+  thirdchest: #название типа
+   min: 2 #минимальное количество возможного лута
+   max: 4 #максимальное количество возможного лута
+   customname: "thirdchest"
+   powered: false #включить управление редстоуном
+   break: false #включить разрушение сундуков
+   respawn: [520, 1040, 1560] #время в секундах через которое стоит распаунить вещи
+   items:
+    - id: 373:8197
+      potion-type: INSTANT_HEAL #тип зелья
+      potion-level: 1 #уровень зелья
+      potion-splash: false #сделать взрывным зелье
+    - id: 373:8197
+      potion-type: INSTANT_HEAL #тип зелья
+      potion-level: 1 #уровень зелья
+      potion-splash: false #сделать взрывным зелье
+    - id: 373:8197
+      potion-type: INSTANT_HEAL #тип зелья
+      potion-level: 1 #уровень зелья
+      potion-splash: false #сделать взрывным зелье
+    - id: 373:8197
+      potion-type: INSTANT_HEAL #тип зелья
+      potion-level: 1 #уровень зелья
+      potion-splash: false #сделать взрывным зелье  
+    - id: 373:8229
+      potion-type: INSTANT_HEAL #тип зелья
+      potion-level: 2 #уровень зелья
+      potion-splash: false #сделать взрывным зелье     
+    - id: 373:8229
+      potion-type: INSTANT_HEAL #тип зелья
+      potion-level: 2 #уровень зелья
+      potion-splash: false #сделать взрывным зелье   
+    - id: 322
+      data: 0 #data вещи
+      amount: 1
+  forthchest: #название типа
+   min: 2 #минимальное количество возможного лута
+   max: 5 #максимальное количество возможного лута
+   customname: "forthchest"
+   powered: false #включить управление редстоуном
+   break: false #включить разрушение сундуков
+   respawn: [520, 1040, 1560] #время в секундах через которое стоит распаунить вещи
+   items:
+    - id: 373
+      data: 0 #data вещи
+      amount: 1
+    - id: 373
+      data: 0 #data вещи
+      amount: 1
+    - id: 374
+      data: 0 #data вещи
+      amount: 1
+    - id: 374
+      data: 0 #data вещи
+      amount: 1     
+    - id: 260
+      data: 0 #data вещи
+      amount: 1
+    - id: 260
+      data: 0 #data вещи
+      amount: 1
+    - id: 260
+      data: 0 #data вещи
+      amount: 1     
+    - id: 353
+      data: 0 #data вещи
+      amount: 1
+    - id: 354
+      data: 0 #data вещи
+      amount: 1
+    - id: 354
+      data: 0 #data вещи
+      amount: 1
+    - id: 296
+      data: 0 #data вещи
+      amount: 1   
+    - id: 296
+      data: 0 #data вещи
+      amount: 1   
+    - id: 296
+      data: 0 #data вещи
+      amount: 1   
+    - id: 296
+      data: 0 #data вещи
+      amount: 1   
+    - id: 296
+      data: 0 #data вещи
+      amount: 1   
+    - id: 296
+      data: 0 #data вещи
+      amount: 1        
+    - id: 357
+      data: 0 #data вещи
+      amount: 1
+    - id: 357
+      data: 0 #data вещи
+      amount: 1
+    - id: 357
+      data: 0 #data вещи
+      amount: 1
+    - id: 357
+      data: 0 #data вещи
+      amount: 1     
+    - id: 282
+      data: 0 #data вещи
+      amount: 1
+    - id: 282
+      data: 0 #data вещи
+      amount: 1     
+    - id: 364
+      data: 0 #data вещи
+      amount: 1
+    - id: 364
+      data: 0 #data вещи
+      amount: 1     
+    - id: 360
+      data: 0 #data вещи
+      amount: 1
+    - id: 360
+      data: 0 #data вещи
+      amount: 1
+    - id: 360
+      data: 0 #data вещи
+      amount: 1     
+    - id: 363
+      data: 0 #data вещи
+      amount: 1
+    - id: 363
+      data: 0 #data вещи
+      amount: 1
+    - id: 363
+      data: 0 #data вещи
+      amount: 1     
+    - id: 391
+      data: 0 #data вещи
+      amount: 1
+    - id: 392
+      data: 0 #data вещи
+      amount: 1    
+    - id: 392
+      data: 0 #data вещи
+      amount: 1   
+    - id: 392
+      data: 0 #data вещи
+      amount: 1   
+    - id: 393
+      data: 0 #data вещи
+      amount: 1            
+  fifthchest: #название типа
+   min: 2 #минимальное количество возможного лута
+   max: 3 #максимальное количество возможного лута
+   customname: "fifthchest"
+   powered: false #включить управление редстоуном
+   break: false #включить разрушение сундуков
+   respawn: [520, 1040, 1560] #время в секундах через которое стоит распаунить вещи
+   items:
+    - id: 272 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "stone_sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 272 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "stone_sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 272 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "stone_sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 272 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "stone_sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество     
+    - id: 267 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "iron_sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 302 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "chainmail_helmet" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 303 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "chainmail_chestplate" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество     
+    - id: 304 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "chainmail_leggings" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество     
+    - id: 305 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "chainmail_boots" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество          
+    - id: 261 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "bow" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 262 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "arrow" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество   
+    - id: 262 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "arrow" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество        
+  sixthchest: #название типа
+   min: 2 #минимальное количество возможного лута
+   max: 3 #максимальное количество возможного лута
+   customname: "sixthchest"
+   powered: false #включить управление редстоуном
+   break: false #включить разрушение сундуков
+   respawn: [520, 1040, 1560] #время в секундах через которое стоит распаунить вещи
+   items:
+    - id: 306 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "iron_helmet" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 307 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "iron_chestplate" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 308 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "iron_leggings" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 309 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "iron_boots" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество     
+    - id: 306 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "iron_helmet" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 307 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "iron_chestplate" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 308 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "iron_leggings" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 309 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "iron_boots" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество          
+    - id: 272 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "stone_sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество     
+    - id: 267 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "iron_sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 272 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "stone_sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество     
+    - id: 267 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "iron_sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 272 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "stone_sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество     
+    - id: 267 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "iron_sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 272 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "stone_sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество     
+    - id: 267 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "iron_sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество     
+    - id: 368
+      data: 0 #data вещи
+      amount: 1     
+  seventchest: #название типа
+   min: 1 #минимальное количество возможного лута
+   max: 3 #максимальное количество возможного лута
+   customname: "seventhchest"
+   powered: false #включить управление редстоуном
+   break: false #включить разрушение сундуков
+   respawn: [520, 1040, 1560] #время в секундах через которое стоит распаунить вещи
+   items:
+    - id: 268 # id предмета
+      durability: -1 #если -1 то поломка будет рандомная
+      random-enchant: false #включить рандомное зачарование
+      enchantments:
+       - name: KNOCKBACK #тип зачарования
+         level: 1 #уровень зачарования
+      name: "My Sword" #новое имя для вещи
+      lore: ["Line 1", "Line 2", "Line 3"] #описание вещи
+      amount: 1 #количество
+    - id: 373
+      potion-type: INSTANT_HEAL #тип зелья
+      potion-level: 2 #уровень зелья
+      potion-splash: false #сделать взрывным зелье
+    - id: 35
+      data: 14 #data вещи
+      amount: 5
+    - id: 397
+      skull: "Notch" #ник владельца головы     

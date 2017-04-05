@@ -1,0 +1,9 @@
+item-1:
+  ==: org.bukkit.inventory.ItemStack
+  type: PAPER
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: §9Bandage
+    lore:
+    - §9Soulbound

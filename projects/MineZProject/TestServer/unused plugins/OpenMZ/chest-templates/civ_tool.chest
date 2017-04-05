@@ -1,0 +1,47 @@
+respawnRate: 1800
+lootRate:
+  low: 1
+  high: 2
+zombieTier: 2
+loot:
+  entry0:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16386
+    durability:
+      low: 100
+      hi: 100
+    probability: 5
+  entry1:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GLASS_BOTTLE
+    durability:
+      low: 100
+      hi: 100
+    probability: 30
+  entry2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: PAPER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: �8�fBandage
+    durability:
+      low: 100
+      hi: 100
+    probability: 30
+  entry3:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: MILK_BUCKET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: �8�fAntidote
+    durability:
+      low: 100
+      hi: 100
+    probability: 30

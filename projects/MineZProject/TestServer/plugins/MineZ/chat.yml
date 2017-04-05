@@ -1,0 +1,8 @@
+format: '&7[%type%]&7 %player%: &e%message%'
+local: '&aL'
+global: '&cG'
+local-distance: 100
+regular: .*(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}|\.(org|net|ru|en|com|pro)).*
+enable-global-local: true
+delay: 2
+delay-message: §cНельзя так часто писать в чат.

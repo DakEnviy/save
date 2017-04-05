@@ -1,0 +1,4 @@
+url: jdbc:mysql://localhost:3306/minez
+username: root
+password: '909123'
+encoding: utf8

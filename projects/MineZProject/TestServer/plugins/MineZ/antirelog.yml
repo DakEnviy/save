@@ -1,0 +1,15 @@
+module_enabled: true
+enable_bar: true
+combat_time: 15
+vanish_timeout: 5
+busy_message: '&cНе выходите в течении&7: &r%timeleft% секунд.'
+free_message: '&aТеперь вы можете выйти.'
+busy_color: red
+free_color: green
+bar_style: segmented_6
+broadcast_message: '&b[MineZ] &6Игрок &2%player% &6вышел во время боя!'
+broadcast_message_send: true
+busy_chat: '&c[MineZ] &fТеперь вы в &6бою&f! Бой закончится через %timeleft% секунд.'
+free_chat: '&a[MineZ] &fВы вышли из &6боя!'
+subjects:
+- Player

@@ -1,0 +1,129 @@
+respawnRate: 1800
+lootRate:
+  low: 1
+  high: 4
+zombieTier: 0
+loot:
+  entry0:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+    durability:
+      low: 25
+      hi: 75
+    probability: 10
+  entry1:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_UNDEAD: 1
+    durability:
+      low: 10
+      hi: 40
+    probability: 10
+  entry2:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOW
+    durability:
+      low: 25
+      hi: 75
+    probability: 10
+  entry3:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          ARROW_DAMAGE: 1
+    durability:
+      low: 10
+      hi: 40
+    probability: 10
+  entry4:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      amount: 5
+    durability:
+      low: 100
+      hi: 100
+    probability: 5
+  entry5:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: CHAINMAIL_BOOTS
+    durability:
+      low: 25
+      hi: 75
+    probability: 15
+  entry6:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: CHAINMAIL_CHESTPLATE
+    durability:
+      low: 25
+      hi: 75
+    probability: 15
+  entry7:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: CHAINMAIL_LEGGINGS
+    durability:
+      low: 25
+      hi: 75
+    probability: 15
+  entry8:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: CHAINMAIL_HELMET
+    durability:
+      low: 25
+      hi: 75
+    probability: 15
+  entry9:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+    durability:
+      low: 10
+      hi: 35
+    probability: 5
+  entry10:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+    durability:
+      low: 10
+      hi: 35
+    probability: 5
+  entry11:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+    durability:
+      low: 10
+      hi: 35
+    probability: 5
+  entry12:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+    durability:
+      low: 10
+      hi: 35
+    probability: 5
+  entry13:
+    item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_BARDING
+    durability:
+      low: 100
+      hi: 100
+    probability: 1

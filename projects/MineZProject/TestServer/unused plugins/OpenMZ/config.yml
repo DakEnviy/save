@@ -1,0 +1,61 @@
+world:
+  BREAK_BLOCKS: false
+general:
+  HALF_LOOT_DROP: false
+  BLOOD: true
+thirst:
+  THIRST_DEC_RATE: 10
+  THIRST_DAMAGE: 1
+  MAX_THIRST: 20
+bleeding:
+  BLEEDING_RATE: 5
+  BLEEDING_DAMAGE: 1
+  BLEEDING_CHANCE: 5
+  BANDAGE_HEAL: 2
+disease:
+  DISEASE_CHANCE: 5
+  DISEASE_DAMAGE: 2
+  DISEASE_RATE: 8
+zombie:
+  ZOMBIE_SPEED: 150
+  ZOMBIE_DAMAGE: 5
+  ZOMBIE_HEALTH: 20
+  ZOMBIE_AWARENESS_WALK: 10
+  PIGMAN_CHANCE: 2
+  PIGMAN_FOCUS_X: 0
+  PIGMAN_FOCUS_Z: 0
+  PIGMAN_RANGE: 800
+  FRAGILE_PIGMEN: false
+  ZOMBIE_BLOOD: true
+  PIGMAN_DEATH_BABY_AMOUNT: 4
+  ZOMBIE_AWARENESS_SNEAK: 5
+  ZOMBIE_AWARENESS_SPRINT: 30
+  ZOMBIE_HORDE_AWARENESS: 20
+  ZOMBIE_HORDE_EFFECT: false
+chest:
+  CHEST_DISABLE_RANGE: 10
+  CHEST_DICOURAGE_RANGE: 20
+crafting:
+  SMOOTH_DURABILITY: true
+  REPAIR_ENCHANTS: true
+healing:
+  HEALING_DELAY: 6000
+  PASSIVE_REGEN_ENABLE: false
+  HEALING_REGULAR_TICKS: 300
+  HEALING_EXTRA_TICKS: 550
+string:
+  LOW_THIRST: I'm getting thirsty, I should find water...
+  LOWER_THIRST: I really need to find some water...
+  LOWEST_THIRST: I need to drink now!
+  THIRST_DAMAGE: I'm dying of thirst!
+  BLEEDING_START: I think I'm bleeding... I need a bandage ASAP!
+  BLEEDING_DAMAGE: I'm losing blood fast...I need a bandage!
+  BLEEDING_HEAL: That should stop the blood...
+  BANDAGE_HEAL: That should do a little to help my wounds...
+  THIRST_REFILL: Ah, that's much better!
+  DISEASE_INFECT: I don't feel so good... I need an antidote...
+  DISEASE_DAMAGE: If I dont find an antidote, I'm going to end up...like them...
+  DISEASE_HEAL: I feel healthier already!
+  HEALING_COOLDOWN: That player can't be healed yet...
+  HEALING_HELP: ''
+  HORDE_AWAKENED: I've awakened the horde!

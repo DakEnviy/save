@@ -1,0 +1,5 @@
+name: MineZ
+main: ru.dakenviy.minez.MineZMain
+version: 0.2.0
+authors: [DakEnviy, Deamonish]
+softdepend: [ProtocolLib, Vault]

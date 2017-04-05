@@ -1,0 +1,24 @@
+#If your config gets messed up just delete it to restore the default.
+
+times:
+  #Warntimes before shutdown
+  warntimes: 600,300,120,60,30,15,10,9,8,7,6,5,4,3,2,1
+  #Sets the shutdowntimes. Format HH:MM seperated by comma. If only one time is set is MUST be 'HH:MM'!
+  shutdowntimes: 0:00,6:00,12:00
+  #shutdowntimes: '12:00'
+  #Countdown to shutdown in seconds
+  gracetime: 20
+ 
+#If players should be kicked before shutdown
+kickonshutdown: true
+
+messages:
+  #Kickreason
+  kickreason: Сервер в процессе перезагрузки!
+  #Configurable shutdownmessage. Перезапуск будет в "<shutdownmessage> в/в течении/течении X секунд/минут /СЕЙЧАС! "
+  shutdownmessage: Плановый рестарт
+  #If true the [AutoShutdown] tag will be displayed before the warning messages. False will add [Warning] tag before the message.
+  showtag: true
+  #Configuration for time unit. Plurals will be set automatically
+  minute: minute
+  second: second

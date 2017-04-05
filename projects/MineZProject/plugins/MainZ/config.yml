@@ -1,0 +1,37 @@
+debug: true
+bleeding_stage_period: 5
+half_loot_drop: false
+miniGamePlayerLimit: 50
+miniGames:
+- game1
+- game2
+zombie_speed: 0.3
+zombie_health: 20
+zombie_half_loot_drop: false
+thirst_message_8min: В горле пересохло...
+thirst_message_5min: Я хочу пить.
+thirst_message_3min: Я очень хочу пить.
+thirst_message_0min: Если я немедленно не найду воду, я умру.
+thirst_message_damage: 1
+thirst_period_damage: 5
+lobby_world: lobby
+signs:
+  game1:
+    sign_location: lobby:0.0:5.0:3.0:0.0:0.0
+  game2:
+    sign_location: lobby:-2.0:5.0:3.0:0.0:0.0
+lobby_spawn_point: lobby:-2.0280187126673397:4.0:-2.160170397242809:1.199911:19.800066
+spawnPoints:
+- world:1.0:2.0:6.0:0.0:0.0
+- world:1.0:2.0:2.0:0.0:0.0
+zombie_full_moon_speed: 0.35
+zombie_full_moon_health: 26
+zombie_damage: 3.0
+zombie_full_moon_damage: 4.0
+distance_exit_combat: 20
+full_moon_period: 5
+full_moon_time: 1200
+full_moon_start_title: '&cНачалось полнолуние'
+full_moon_start_subtitle: '&eЗомби стали сильнее'
+full_moon_end_title: '&aПолнолуние закончилось'
+full_moon_end_subtitle: '&eЗомби ослабились'
