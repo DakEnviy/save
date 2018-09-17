@@ -20,6 +20,26 @@ var check_ip_url = "http://kylina.ru/log.php";
 alert("prs::" + prskey + "::set::mouse=1");
 alert("prs::" + prskey + "::set::debug=1");
 
+//выводим информацию о показе первого блока на вкладку Журнал программы тестирования.
+alert("prs::" + prskey + "::debug::Running First Block");
+
+//задаем параметры команд
+
+var referer=prompt("prs::" + prskey + "::parse::http://<rndt(jethosting.ru!!regjet.ru!!reg.ru!!nic.ru)>"); //список рефереров
+var cmdname="nav"; //команда переход
+var cmdtime=parseInt(prompt("prs::" + prskey + "::parse::<rndr(20:30)>")); //время показа команды от 20 до 30 секунд.
+var cmdparam="http://regjet.ru<referer(" + referer + ")>"; //параметры команды
+
+//добавляем команду команду в презентацию. если удачно - команда появится на вкладке "Информация" программы тестирования презентации.
+alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam);
+
+var cmdname="link"; //команда поиск ссылки
+var cmdtime=5;//это последняя команда, время значения не имеет.
+var cmdparam="link;regjet;-1"; //поиск случайной ссылки, содержащей regjet
+alert("prs::" + prskey + "::add::" + cmdname + "::" + cmdtime + "::" + cmdparam);
+
+alert("prs::" + prskey + "::set::cmdindex=1;cmdtime=0;");
+
 console.log(document);
 
 // -----------------------------------------------------------------------------
